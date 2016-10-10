@@ -32,10 +32,10 @@ correctingSyntax = testGroup "Correcting Syntax"
 
 matchFunctionsNamesToTypes :: TestTree
 matchFunctionsNamesToTypes = testGroup "Match Function Names To Their Types"
-  [ testCase "1,c) t:show :: Show a => a -> String" ? True @?= True
-  , testCase "2,b) t:(==) :: Eq a => a -> a -> Bool" ? True @?= True
-  , testCase "3,a) t:(fst) :: (a, b) -> a" ? True @?= True
-  , testCase "4,d) t:(+) :: Num a => a-> a -> a" ? True @?= True
+  [ testCase "1,c) t:show :: Show a => a -> String" $ True @?= True
+  , testCase "2,b) t:(==) :: Eq a => a -> a -> Bool" $ True @?= True
+  , testCase "3,a) t:(fst) :: (a, b) -> a" $ True @?= True
+  , testCase "4,d) t:(+) :: Num a => a-> a -> a" $ True @?= True
   ]
 
 
