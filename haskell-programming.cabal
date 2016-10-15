@@ -23,11 +23,6 @@ library
                        , Chapter04.Chapter04
                        , Chapter07.Chapter07
                        , Chapter07.Arith4
-  exposed-modules:     Lib
-                       , Chapter02.Chapter02
-                       , Chapter03.Chapter03
-                       , Chapter03.Reverse
-                       , Chapter04.Chapter04
 
 executable haskell-programming-exe
   hs-source-dirs:      app
