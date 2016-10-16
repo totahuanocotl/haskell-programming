@@ -23,6 +23,8 @@ library
                        , Chapter04.Chapter04
                        , Chapter07.Chapter07
                        , Chapter07.Arith4
+                       , Chapter08.Chapter08
+                       , Chapter08.WordNumber
 
 executable haskell-programming-exe
   hs-source-dirs:      app
@@ -42,6 +44,7 @@ test-suite haskell-programming-test
                      , Chapter03.Tests
                      , Chapter04.Tests
                      , Chapter07.Tests
+                     , Chapter08.Tests
   build-depends:       base
                      , haskell-programming
                      , HUnit

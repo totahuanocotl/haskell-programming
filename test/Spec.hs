@@ -6,10 +6,12 @@ import Chapter02.Tests
 import Chapter03.Tests
 import Chapter04.Tests
 import Chapter07.Tests
+import Chapter08.Tests
 
 main :: IO ()
 main = defaultMain $ testGroup ""
-  [ chapter07
+  [ chapter08
+--   , chapter07
 --   , chapter02
 --   , chapter03
 --   , chapter04
